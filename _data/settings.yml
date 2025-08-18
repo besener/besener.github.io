@@ -10,7 +10,6 @@ menu:
 
 - {name: 'Projects', url: 'projects.html'}
 - {name: 'Blog', url: 'blog.html'}
-- {name: 'Travelogue', url: 'travelogue.html'}
 - {name: 'About', url: 'about.html'}
 - {name: 'Contact', url: 'contact.html'}
 
@@ -70,12 +69,6 @@ projects:
 - {name: 'Project C', folder: 'proj-3', file: 'projects/projectc.html'}
 
 - {name: 'Project D', folder: 'proj-4', file: 'projects/project-project-d.html'}
-
-
-#-------------------------------
-
-travelogue:
-
 
 
 #-------------------------------
