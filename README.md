@@ -1,2 +1,2 @@
-# besener.github.io
+besener.github.io
 Academic Personal Webpage
