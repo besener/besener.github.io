@@ -58,15 +58,6 @@ contact: >
 # Work Section
 
 
-- {name: 'Project A', folder: 'proj-1', file: 'projects/projecta.html'}
-
-- {name: 'Project B', folder: 'proj-2', file: 'projects/projectb.html'}
-
-- {name: 'Project C', folder: 'proj-3', file: 'projects/projectc.html'}
-
-- {name: 'Project D', folder: 'proj-4', file: 'projects/project-project-d.html'}
-
-
 #-------------------------------
 
 # Contact Section
@@ -76,7 +67,7 @@ footer: Elsewhere
 social:
 
 - {icon: 'Bluesky', link: 'https://bluesky.app'}
-- {icon: 'codepen', link: 'http://codepen.io/'}
+- {icon: 'university', link: 'http://academia.edu/'}
 - {icon: 'github', link: 'https://www.github.com/'}
 - {icon: 'linkedin', link: 'http://www.linkedin.com/'}
 - {icon: 'envelope', link: 'mailto:addyouremail'}
