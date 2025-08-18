@@ -8,6 +8,7 @@ email: addyouremail
 
 menu:
 
+- {name: 'Projects', url: 'projects.html'}
 - {name: 'Blog', url: 'blog.html'}
 - {name: 'About', url: 'about.html'}
 - {name: 'Contact', url: 'contact.html'}
