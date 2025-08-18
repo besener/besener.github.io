@@ -1,0 +1,95 @@
+#-------------------------------
+
+# General Site Settings
+
+title: your title
+description: description
+email: addyouremail
+
+menu:
+
+- {name: 'Projects', url: 'projects.html'}
+- {name: 'Blog', url: 'blog.html'}
+- {name: 'Travelogue', url: 'travelogue.html'}
+- {name: 'About', url: 'about.html'}
+- {name: 'Contact', url: 'contact.html'}
+
+#-------------------------------
+
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Personal page powered by Jekyll and GitHub Pages '
+  rel-author: 'https://plus.google.com/u/0/115391695226276326378'
+  rel-publisher: 'https://plus.google.com/u/0/115391695226276326378'
+
+#-------------------------------
+
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
+
+# About Section
+
+about: >
+
+  # Hello! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis tempor neque. Maecenas feugiat mauris id ex ultrices, at laoreet eros fringilla.
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis tempor neque. Maecenas feugiat mauris id ex ultrices, at laoreet eros fringilla. Quisque malesuada lacinia rhoncus. In consectetur, erat et aliquet sagittis, magna ex consequat risus, laoreet commodo eros dolor sed ante. Ut vel odio massa. Proin vitae felis et massa dictum egestas sit amet nec nisl. Nulla ut imperdiet nibh. Suspendisse et consectetur tellus. Nulla id purus condimentum nibh laoreet varius. Nunc lectus tellus, malesuada eu erat non, pharetra sagittis nulla. Cras commodo egestas odio, quis aliquam odio congue vitae.
+    
+    Ut euismod dui ipsum, nec interdum ex tristique ut. Duis porta, mi id placerat fermentum, est libero elementum justo, non rhoncus magna enim id orci. Donec dignissim, mi quis sagittis scelerisque, elit purus blandit magna, quis euismod diam metus vel sem. Cras fermentum tincidunt suscipit. Mauris congue pellentesque lorem ut auctor. Vivamus lacinia suscipit pharetra. In dignissim justo nisi, in tincidunt enim vulputate et. Integer id turpis ultrices, consectetur ligula consectetur, accumsan lacus. Vivamus lobortis ligula nec lobortis aliquam. Aliquam in laoreet neque. Duis ultrices sollicitudin nulla, ut pharetra orci dapibus a. Ut lacinia vel quam non pretium.
+    
+    Pellentesque dictum, elit ac dignissim tempor, tortor elit scelerisque magna, at sodales ante erat consectetur leo. Suspendisse vitae accumsan tortor. Integer lectus ligula, laoreet eget lacinia eu, efficitur eget turpis. Curabitur at finibus justo. Vestibulum euismod velit et mi iaculis, in finibus lacus interdum. Aliquam fringilla mauris velit, sit amet eleifend leo molestie et. Donec ac sagittis ex, eget auctor odio. In ut ornare libero. Vivamus nec tellus quis est luctus efficitur at nec sem. In bibendum a erat vel dignissim.
+
+contact: >
+
+  # Contact
+
+  You may contact me [through my email](mailto:addyouremail) or [Bluesky](https://bsky.app/).
+
+#-------------------------------
+
+# Work Section
+
+projects:
+
+- {name: 'Project A', folder: 'proj-1', file: 'projects/projecta.html'}
+
+- {name: 'Project B', folder: 'proj-2', file: 'projects/projectb.html'}
+
+- {name: 'Project C', folder: 'proj-3', file: 'projects/projectc.html'}
+
+- {name: 'Project D', folder: 'proj-4', file: 'projects/project-project-d.html'}
+
+
+#-------------------------------
+
+travelogue:
+
+
+
+#-------------------------------
+
+# Contact Section
+
+footer: Elsewhere
+
+social:
+
+- {icon: 'Bluesky', link: 'https://bluesky.app'}
+- {icon: 'codepen', link: 'http://codepen.io/'}
+- {icon: 'github', link: 'https://www.github.com/'}
+- {icon: 'linkedin', link: 'http://www.linkedin.com/'}
+- {icon: 'envelope', link: 'mailto:addyouremail'}
+
+# social network icons available courtesy of http://fontawesome.io/icons/
