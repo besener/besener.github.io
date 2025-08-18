@@ -81,8 +81,8 @@ social:
 
 - {icon: 'Bluesky', link: 'https://bluesky.app'}
 - {icon: 'codepen', link: 'http://codepen.io/'}
-- {icon: 'github', link: 'https://www.github.com/besener'}
-- {icon: 'linkedin', link: 'http://www.linkedin.com/in/besener'}
+- {icon: 'github', link: 'https://www.github.com/'}
+- {icon: 'linkedin', link: 'http://www.linkedin.com/'}
 - {icon: 'envelope', link: 'mailto:addyouremail'}
 
 # social network icons available courtesy of http://fontawesome.io/icons/
