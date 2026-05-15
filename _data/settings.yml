@@ -42,9 +42,7 @@ seo:
 
 projects: >
 
-    # Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis tempor neque. Maecenas feugiat mauris id ex ultrices, at laoreet eros fringilla.
-
-    Quisque malesuada lacinia rhoncus. In consectetur, erat et aliquet sagittis, magna ex consequat risus, laoreet commodo eros dolor sed ante. Ut vel odio massa.
+    # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 #-------------------------------
 
@@ -59,9 +57,7 @@ blog: >
 
 about: >
 
-  # Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis tempor neque. Maecenas feugiat mauris id ex ultrices, at laoreet eros fringilla.
-
-    Quisque malesuada lacinia rhoncus. In consectetur, erat et aliquet sagittis, magna ex consequat risus, laoreet commodo eros dolor sed ante. Ut vel odio massa.
+  # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 
 #-------------------------------
@@ -70,18 +66,8 @@ about: >
 
 contact: >
 
-  # Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis tempor neque. Maecenas feugiat mauris id ex ultrices, at laoreet eros fringilla.
+  # Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 
-    Quisque malesuada lacinia rhoncus. In consectetur, erat et aliquet sagittis, magna ex consequat risus, laoreet commodo eros dolor sed ante. Ut vel odio massa.
-
-social:
-
-  - {icon: 'university', link: 'http://academia.edu/'}
-  - {icon: 'github', link: 'https://www.github.com/'}
-  - {icon: 'linkedin', link: 'http://www.linkedin.com/'}
-  - {icon: 'instagram', link: 'https://www.instagram.com'}
-  - {icon: 'flickr', link: 'https://www.flickr.com'}
-  - {icon: 'envelope', link: 'mailto:addyouremail'}
 
 #-------------------------------
 
