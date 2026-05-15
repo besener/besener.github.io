@@ -8,7 +8,7 @@ email: addyouremail
 
 menu:
 
-- {name: 'Projects', url: ''}
+- {name: 'Projects', url: 'projects.html'}
 - {name: 'Blog', url: 'blog.html'}
 - {name: 'About', url: 'about.html'}
 - {name: 'Contact', url: 'contact.html'}
@@ -42,6 +42,9 @@ seo:
 
 project: >
 
+    # Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis tempor neque. Maecenas feugiat mauris id ex ultrices, at laoreet eros fringilla.
+
+    Quisque malesuada lacinia rhoncus. In consectetur, erat et aliquet sagittis, magna ex consequat risus, laoreet commodo eros dolor sed ante. Ut vel odio massa.
 
 #-------------------------------
 
