@@ -38,21 +38,47 @@ seo:
 
 #-------------------------------
 
+# Project Section
+
+project: >
+
+
+#-------------------------------
+
+# Blog Section
+
+blog: >
+
+
+#-------------------------------
+
 # About Section
 
 about: >
 
-  # Hello! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis tempor neque. Maecenas feugiat mauris id ex ultrices, at laoreet eros fringilla.
+  # Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis tempor neque. Maecenas feugiat mauris id ex ultrices, at laoreet eros fringilla.
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis tempor neque. Maecenas feugiat mauris id ex ultrices, at laoreet eros fringilla. Quisque malesuada lacinia rhoncus. In consectetur, erat et aliquet sagittis, magna ex consequat risus, laoreet commodo eros dolor sed ante. Ut vel odio massa. Proin vitae felis et massa dictum egestas sit amet nec nisl. Nulla ut imperdiet nibh. Suspendisse et consectetur tellus. Nulla id purus condimentum nibh laoreet varius. Nunc lectus tellus, malesuada eu erat non, pharetra sagittis nulla. Cras commodo egestas odio, quis aliquam odio congue vitae.
+    Quisque malesuada lacinia rhoncus. In consectetur, erat et aliquet sagittis, magna ex consequat risus, laoreet commodo eros dolor sed ante. Ut vel odio massa.
 
+
+#-------------------------------
     
+# Contact Section
 
 contact: >
 
-  # Contact
+  # Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis tempor neque. Maecenas feugiat mauris id ex ultrices, at laoreet eros fringilla.
 
-  You may contact me [through my email](mailto:addyouremail).
+    Quisque malesuada lacinia rhoncus. In consectetur, erat et aliquet sagittis, magna ex consequat risus, laoreet commodo eros dolor sed ante. Ut vel odio massa.
+
+social:
+
+- {icon: 'university', link: 'http://academia.edu/'}
+- {icon: 'github', link: 'https://www.github.com/'}
+- {icon: 'linkedin', link: 'http://www.linkedin.com/'}
+- {icon: 'instagram', link: 'https://www.instagram.com'}
+- {icon: 'flickr', link: 'https://www.flickr.com'}
+- {icon: 'envelope', link: 'mailto:addyouremail'}
 
 #-------------------------------
 
@@ -61,18 +87,15 @@ contact: >
 
 #-------------------------------
 
-# Contact Section
-
 footer: Elsewhere
 
 social:
 
 - {icon: 'university', link: 'http://academia.edu/'}
-- {icon: 'instagram', link: 'https://www.instagram.com'}
-- {icon: 'flickr', link: 'https://www.flickr.com'}
-- {icon: 'bluesky', link: 'https://bluesky.app'}
 - {icon: 'github', link: 'https://www.github.com/'}
 - {icon: 'linkedin', link: 'http://www.linkedin.com/'}
+- {icon: 'instagram', link: 'https://www.instagram.com'}
+- {icon: 'flickr', link: 'https://www.flickr.com'}
 - {icon: 'envelope', link: 'mailto:addyouremail'}
 
 # social network icons available courtesy of http://fontawesome.io/icons/
