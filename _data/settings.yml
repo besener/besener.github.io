@@ -8,10 +8,10 @@ email: addyouremail
 
 menu:
 
-- {name: 'Project', link: 'https://besener.github.io/searlefellowsprogram/'}
-- {name: 'Blog', link: 'https://besener.github.io/parchment/'}
-- {name: 'About', link: 'https://www.besener.com/'}
-- {name: 'Contact', link: 'https://arthistory.northwestern.edu/people/faculty/bihter-esener.html'}
+- {name: 'Project', url: 'searlefellowsprogram'}
+- {name: 'Blog', url: 'parchment'}
+- {name: 'About', url: 'https://www.besener.com/', external: true }
+- {name: 'Contact', url: 'https://arthistory.northwestern.edu/people/faculty/bihter-esener.html', external: true }
 
 #-------------------------------
 
