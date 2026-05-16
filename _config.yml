@@ -1,14 +1,38 @@
-# Build settings
+# ===================================
+# Build Settings
+# ===================================
 
 markdown: kramdown
-permalink: none
+
+permalink: pretty
+
+
+# ===================================
+# Server (local only)
+# ===================================
 
 port: 4000
 
-include: ['_includes/work']
-exclude: ['the_design.psd']
+
+# ===================================
+# Includes / Excludes
+# ===================================
+
+include:
+  - _includes/work
+
+exclude:
+  - the_design.psd
+  - README.md
+  - node_modules
+  - .DS_Store
+
+
+# ===================================
+# SASS / CSS
+# ===================================
 
 sass:
   sass_dir: assets/css
-  style: :nested
-
+  style: compressed
+  
