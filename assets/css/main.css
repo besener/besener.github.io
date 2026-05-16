@@ -1,0 +1,97 @@
+/* ==============================
+   DESIGN TOKENS
+============================== */
+
+:root {
+  --accent: #c99065;
+  --accent-alt: #BD5248;
+
+  --text: #666;
+  --headline: #333;
+
+  --bg: #e5eaee;
+  --surface: #ffffff;
+}
+
+/* ==============================
+   BASE STYLES
+============================== */
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+/* ==============================
+   LAYOUT
+============================== */
+
+.site-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: var(--surface);
+}
+
+/* ==============================
+   HEADER
+============================== */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+
+header a {
+  font-weight: 600;
+}
+
+/* ==============================
+   FOOTER
+============================== */
+
+.site-footer {
+  padding: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* ==============================
+   THUMB GRID
+============================== */
+
+.thumb-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.thumb-unit {
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.thumb-unit:hover {
+  transform: translateY(-4px);
+}
+
+.thumb-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  color: white;
+  background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
+}
