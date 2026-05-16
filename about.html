@@ -3,8 +3,12 @@ layout: page
 title: About
 ---
 
-{{ site.data.settings.about | markdownify }}
+<section class="about-page">
+
+  <div class="about-content">
+    {{ site.data.settings.about | markdownify }}
+  </div>
+
+</section>
 
 {% include thumbnails.html %}
-
-{% include footer.html %}
