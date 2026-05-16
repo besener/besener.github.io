@@ -6,6 +6,15 @@ animation: "fade"
 
 
 # ===================================
+# Typography
+# ===================================
+
+fonts:
+  heading: "'Inter', sans-serif"
+  body: "'Inter', sans-serif"
+
+
+# ===================================
 # Color System
 # ===================================
 
@@ -13,13 +22,14 @@ colors:
   accent: "#c99065"
 
   text: "#5f6368"
+
   headline: "#1f2937"
 
   background: "#f5f7fa"
+
   surface: "#ffffff"
 
   border: "#e5e7eb"
 
   muted: "#9ca3af"
-
   
