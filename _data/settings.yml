@@ -2,7 +2,7 @@
 
 # General Site Settings
 
-title: Academic
+title: Academia
 description: description
 email: addyouremail
 
@@ -42,20 +42,17 @@ seo:
 
 projects: >
 
-
 #-------------------------------
 
 # Blog Section
 
 blog: >
 
-
 #-------------------------------
 
 # About Section
 
 about: >
-
 
 #-------------------------------
     
@@ -65,11 +62,9 @@ contact: >
 
   # Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 
-
 #-------------------------------
 
 # Work Section
-
 
 #-------------------------------
 
