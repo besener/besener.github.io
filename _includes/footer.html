@@ -1,4 +1,5 @@
 <footer class="site-footer">
+
   <div class="footer-wrap">
 
     <!-- Footer Text -->
@@ -6,9 +7,14 @@
       <p>{{ site.data.settings.footer }}</p>
     </div>
 
-    <!-- Social Links -->
-    <nav class="social-media" aria-label="Social media links">
+    <!-- Social Media -->
+    <nav
+      class="social-media"
+      aria-label="Social media links"
+    >
+
       {% for item in site.data.settings.social %}
+
         <a
           href="{{ item.link }}"
           target="_blank"
@@ -16,11 +22,26 @@
           aria-label="{{ item.name }}"
           class="social-link"
         >
-          <i class="fa-brands fa-{{ item.icon }}" aria-hidden="true"></i>
+
+          {% if item.type == "brand" %}
+            <i
+              class="fa-brands fa-{{ item.icon }}"
+              aria-hidden="true"
+            ></i>
+          {% else %}
+            <i
+              class="fa-solid fa-{{ item.icon }}"
+              aria-hidden="true"
+            ></i>
+          {% endif %}
+
         </a>
+
       {% endfor %}
+
     </nav>
 
   </div>
+
 </footer>
 
