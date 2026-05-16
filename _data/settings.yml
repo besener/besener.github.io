@@ -1,84 +1,99 @@
-#-------------------------------
-
+# ===================================
 # General Site Settings
+# ===================================
 
-title: Academia
-description: description
-email: addyouremail
+title: "Academia"
+
+description: ""
+
+email: ""
+
+# ===================================
+# Navigation
+# ===================================
 
 menu:
+  - name: "Projects"
+    url: "/projects.html"
 
-- {name: 'Projects', url: 'projects.html'}
-- {name: 'Blog', url: 'blog.html'}
-- {name: 'About', url: 'about.html'}
-- {name: 'Contact', url: 'contact.html'}
+  - name: "Blog"
+    url: "/blog.html"
 
-#-------------------------------
+  - name: "About"
+    url: "/about.html"
 
-# SEO Section
+  - name: "Contact"
+    url: "/contact.html"
 
-# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+# ===================================
+# SEO
+# ===================================
 
 seo:
-  description: 'Personal page powered by Jekyll and GitHub Pages '
-  rel-author: 'https://plus.google.com/u/0/115391695226276326378'
-  rel-publisher: 'https://plus.google.com/u/0/115391695226276326378'
+  description: "Personal academic website powered by Jekyll and GitHub Pages"
 
-#-------------------------------
 
-# Google Analytics Section
+# ===================================
+# Google Analytics 4
+# ===================================
 
-google-analytics-id: G-XXXXXXXXXX
+google-analytics-id: "G-XXXXXXXXXX"
 
-# Analytics helps you understand who visits your website.
 
-# Learn more at: http://support.google.com/analytics/answer/1008065
+# ===================================
+# Homepage Sections
+# ===================================
 
-# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+projects: ""
 
-#google-analytics-ua: UA-XXXXXX-X
+blog: ""
 
-#-------------------------------
+about: ""
 
-# Projects Section
+contact: ""
 
-projects: >
 
-#-------------------------------
+# ===================================
+# Footer
+# ===================================
 
-# Blog Section
+footer: "© 2026 Built with Jekyll and GitHub Pages."
 
-blog: >
 
-#-------------------------------
-
-# About Section
-
-about: >
-
-#-------------------------------
-    
-# Contact Section
-
-contact: >
-
-  # Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-
-#-------------------------------
-
-# Work Section
-
-#-------------------------------
-
-footer: 
+# ===================================
+# Social Media
+# ===================================
 
 social:
+  - name: "Academia"
+    icon: "graduation-cap"
+    type: "solid"
+    link: "https://www.academia.edu/"
 
-- {icon: 'university', link: 'http://academia.edu/'}
-- {icon: 'github', link: 'https://www.github.com/besener'}
-- {icon: 'linkedin', link: 'http://www.linkedin.com/in/besener'}
-- {icon: 'instagram', link: 'https://www.instagram.com/bihter.esener'}
-- {icon: 'flickr', link: 'https://www.flickr.com/besener'}
-- {icon: 'envelope', link: 'mailto:besener@northwestern.edu'}
+  - name: "GitHub"
+    icon: "github"
+    type: "brand"
+    link: "https://github.com/besener"
 
-# social network icons available courtesy of http://fontawesome.io/icons/
+  - name: "LinkedIn"
+    icon: "linkedin"
+    type: "brand"
+    link: "https://linkedin.com/in/besener"
+
+  - name: "Instagram"
+    icon: "instagram"
+    type: "brand"
+    link: "https://instagram.com/bihter.esener"
+
+  - name: "Flickr"
+    icon: "flickr"
+    type: "brand"
+    link: "https://flickr.com/photos/besener"
+
+  - name: "Email"
+    icon: "envelope"
+    type: "solid"
+    link: "mailto:besener@northwestern.edu"
+
+    
