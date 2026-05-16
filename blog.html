@@ -3,8 +3,10 @@ layout: default
 title: Blog
 ---
 
-{{ site.data.settings.blog | markdownify }}
+<section class="blog-intro">
+  <div class="blog-content">
+    {{ site.data.settings.blog | markdownify }}
+  </div>
+</section>
 
 {% include thumbnails.html %}
-
-{% include footer.html %}
