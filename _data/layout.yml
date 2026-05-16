@@ -1,13 +1,25 @@
-# Layout settings
+# ===================================
+# Layout Settings
+# ===================================
 
-animation: "bounceOut"
+animation: "fade"
 
 
-# Colors
+# ===================================
+# Color System
+# ===================================
 
-accent: "#c99065"
+colors:
+  accent: "#c99065"
 
-textColor: "#666"
-headlineColor: "#333"
-bgcolor: "#e5eaee"
-documentBackgroundColor: "#fff"
+  text: "#5f6368"
+  headline: "#1f2937"
+
+  background: "#f5f7fa"
+  surface: "#ffffff"
+
+  border: "#e5e7eb"
+
+  muted: "#9ca3af"
+
+  
