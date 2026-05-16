@@ -1,13 +1,34 @@
-<section>
+<section class="project-thumbnails">
+
   <div class="thumb-container">
+
     {% for project in site.data.settings.index %}
-      <a href="{{ site.github.url }}/{{ project.file }}">
-        <div class="thumb-unit" data-folder="{{ site.github.url }}/projects/{{ project.folder }}" style="background-image: url({{ site.github.url }}/assets/img/projects/{{ project.folder }}/thumb.jpg)">
+
+      <a
+        href="{{ project.file | relative_url }}"
+        class="thumb-link"
+      >
+
+        <div
+          class="thumb-unit"
+          data-folder="{{ '/projects/' | append: project.folder | relative_url }}"
+          style="background-image: url('{{ '/assets/img/projects/' | append: project.folder | append: '/thumb.jpg' | relative_url }}')"
+        >
+
           <div class="thumb-overlay">
-            <strong>{{ project.name }} <i class="fa fa-arrow-right" aria-hidden="true"></i></strong>
+            <strong>
+              {{ project.name }}
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </strong>
           </div>
+
         </div>
+
       </a>
+
     {% endfor %}
+
   </div>
+
 </section>
+
