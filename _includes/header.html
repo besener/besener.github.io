@@ -3,8 +3,19 @@
     <a href="{{ site.github.url }}/">{{ site.data.settings.title }}</a>
   </div>
   <nav>
-    {% for item in site.data.settings.menu %}
-      <a href="{{ site.github.url }}/{{ item.url }}">{{ item.name }}</a>
-    {% endfor %}
-  </nav>
+  {% for item in site.data.settings.menu %}
+    <a
+      href="{% if item.url contains 'http' %}
+              {{ item.url }}
+            {% else %}
+              {{ site.github.url }}/{{ item.url }}
+            {% endif %}"
+      {% if item.url contains 'http' %}
+        target="_blank" rel="noopener"
+      {% endif %}
+    >
+      {{ item.name }}
+    </a>
+  {% endfor %}
+</nav>
 </header>
