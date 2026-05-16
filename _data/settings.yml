@@ -1,0 +1,14 @@
+title: Academia
+description: Personal portfolio site
+
+menu:
+  - {name: 'Projects', url: 'projects.html'}
+  - {name: 'Blog', url: 'blog.html'}
+  - {name: 'About', url: 'about.html'}
+  - {name: 'Contact', url: 'contact.html'}
+
+footer: "Built with Jekyll"
+
+social:
+  - {icon: 'github', link: 'https://github.com/'}
+  - {icon: 'linkedin', link: 'https://linkedin.com/'}
