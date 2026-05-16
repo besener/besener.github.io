@@ -3,8 +3,10 @@ layout: page
 title: Projects
 ---
 
-{{ site.data.settings.projects | markdownify }}
+<section class="projects-intro">
+  <div class="projects-content">
+    {{ site.data.settings.projects | markdownify }}
+  </div>
+</section>
 
 {% include thumbnails.html %}
-
-{% include footer.html %}
